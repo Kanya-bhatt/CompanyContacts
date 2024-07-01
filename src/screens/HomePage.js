@@ -43,7 +43,7 @@ function HomePage() {
                                     <td>{company.email}</td>
                                     <td>{company.website}</td>
                                     <td>{company.numberEmp}</td>
-                                    <td>{new Date(company.founded).toLocaleDateString()}</td>
+                                   <td>{new Date(company.founded).toLocaleDateString()}</td>
                                     <td>{company.industry}</td>
                                     <td>{contact.name}</td>
                                     <td>{contact.phone}</td>
