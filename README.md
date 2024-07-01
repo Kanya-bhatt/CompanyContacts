@@ -1,14 +1,16 @@
 # Task 1 - Company Contracts
 
-## Available Scripts
+👋 Welcome to the Company Contracts project! This document provides an overview of the available scripts that can be run in this project. These scripts facilitate the development and management of the application.
 
-In the project directory, you can run:
+## Available Scripts 🚀
 
-### `npm start`
+In the project directory, you can run the following scripts:
 
-To run the app in the development mode.
+### `npm start` 🌟
 
+This command is used to start the application in development mode. It executes the `start` script defined in the `package.json` file. Typically, this script will start the server or application, allowing you to develop and test your code.
 
-### `npx nodemon index.js`
-npx nodemon index.js is a command used in Node.js backend development to run a script (index.js) with nodemon, which is a utility that automatically restarts your Node.js application when file changes in the directory are detected.
+**Usage:**
 
+```bash
+npm start
