@@ -1,29 +1,27 @@
-# Company Contracts Project
+# Task 1 - Company Contracts
 
-Welcome to the Company Contracts project! This README provides an overview of the project, installation instructions, available scripts, usage details, and other relevant information for developers.
+👋 Welcome to the Company Contracts project! This document provides an overview of the available scripts that can be run in this project. These scripts facilitate the development and management of the application.
 
-## Table of Contents
+## Available Scripts 🚀
 
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Available Scripts](#available-scripts)
-    - [`npm start`](#npm-start)
-    - [`npx nodemon index.js`](#npx-nodemon-indexjs)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
+In the project directory, you can run the following scripts:
 
-## Introduction
+### `npm start` 🌟
 
-👋 Welcome to the Company Contracts project! This project aims to manage contracts for a company efficiently. It provides tools to handle contract creation, management, and monitoring.
+This command is used to start the application in development mode. It executes the `start` script defined in the `package.json` file. Typically, this script will start the server or application, allowing you to develop and test your code.
 
-## Installation
+**Usage:**
 
-To get started with the Company Contracts project, follow these steps:
+```bash
+npm start
+```
 
-1. **Clone the repository:**
+### `npx nodemon index.js` 🌟
 
-   ```bash
-   git clone https://github.com/your-username/company-contracts.git
-   cd company-contracts
+Tnpx nodemon index.js runs index.js with nodemon, automatically restarting your Node.js app on file changes.
+Used to run the backend part of the project.
+
+**Usage:**
+
+```bash
+npm start
